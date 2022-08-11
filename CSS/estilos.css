@@ -1,0 +1,142 @@
+/* Estilo de la pagina del index el home */
+
+
+.general{
+    background-color:white;
+}
+.icon{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    padding: 25px;
+    font-size: 20px;
+    display: none;
+    
+}
+
+.titulo-servicios{
+    text-align: center;
+    font-style:  italic;
+}
+.num1 p{
+    width: 300px;
+    text-align: justify;
+}
+
+.num1{
+    margin: auto; 
+  
+}
+
+.num2 p{
+    width: 300px;
+    text-align: justify;
+}
+
+.num2{
+  margin: auto; 
+ 
+}
+
+.titulo-marcas{
+    text-align: center;
+}
+
+.num-1{
+    text-align: center;
+}
+
+.num-2{
+    text-align: center;
+}
+
+.marcas{
+    background-color: #efefef;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.marca-audi{
+    height: 175px;
+    width: 225px;
+}
+.marca-bmw{
+    height: 175px;
+    width: 225px;
+}
+
+.marca-chevrolet{
+    height: 175px;
+    width: 225px;
+}
+
+.marca-citroen{
+    height: 175px;
+    width: 225px;
+}
+
+
+.marca-honda{
+    height: 175px;
+    width: 235px;
+}
+
+.marca-ford{
+    height: 175px;
+    width: 235px;
+}
+
+.marca-hyunday{
+    height: 175px;
+    width: 235px;
+}
+
+.marca-jeep{
+    height: 175px;
+    width: 235px;
+}
+
+.marca-kia{
+    height: 175px;
+    width: 235px;
+}
+
+
+
+
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    background-color: #efefef;
+}
+
+main .titulo-servicios{
+    margin: 150px 0px 0px 0px;
+}
+
+
+
+
+
+/* Para el Main */
+@media screen and (max-width: 768px) {
+    main{
+        width: 90%;
+        max-width: 1000px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    
+    
+}
+
+
+    
+

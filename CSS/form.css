@@ -1,0 +1,52 @@
+
+.form_input{
+ 
+    background: none;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+
+}
+
+.principal-form{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    border-style: groove;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    background-color: #efefef;
+    font-size: 18px;
+    font-style: italic;
+    color: gray;
+}
+
+.botones-form{
+    text-align: center;
+   
+
+}
+
+.enviar{
+    margin: 0px 100px 0px 0px ;
+}
+
+.borrar{
+    margin: 0px 0px 0px 100px ;
+}
+
+/* Para el Main */
+@media screen and (max-width: 768px) {
+    main{
+        width: 90%;
+        max-width: 1000px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    
+    
+}

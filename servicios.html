@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Automotriz Bonilla</title>
+    <link rel="icon" href="Img/Logo del Proyecto.png">
+    <link rel="stylesheet" href="CSS/headerAndFooter.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header>
+       
+        <div class="logo">
+             <a href="index.html"><img class="logo" src="Img/Logo del Proyecto.png"  alt=""></a>
+             <h3 class="nombreTaller">Taller Automotriz Bonilla</h3>
+        </div>
+    </header>
+
+    <nav>
+         <ul>
+             <li><a href="index.html">Inicio</a> </li>
+            <li><a href="servicios.html">Servicios</a> </li>
+            <li><a href="productos.html">Productos</a> </li>
+            <li><a href="resultado.html">Resultados</a></li>
+            <li><a href="contacto.html">Contacto</a> </li>
+            <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a> </li>
+            <li><a href="acercaDe.html">Acerca de</a></li>
+        </ul>
+
+        <div>
+            <li class="icon"><i class="fa fa-bars" aria-hidden="true"></i> Menú </li>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <h2 class="titulo-servicios" >Brindamos los siguientes Servicios</h2>
+
+    <br><br>
+
+   
+    <button class="scanner" id="b-scanner">Scanner</button>
+    <button class="diagnostico" id="b-diganostico">Diagnostico</button>
+    <button class="mantenimiento" id="b-mante ">Mantenimiento</button>
+    <button class="otros-servi" id="b-otros-servi">Otros Servicios</button>
+
+    <br><br><br>
+    <main class="nuestros-servicios">
+       
+        
+            <div class="num1">
+                <img class="foto-scanner" src="Img/foto-scanner.png" alt="">
+                  <p>Contamos con multiples computadoras. Asimismo,
+                    tenemos un diagnostico de lo que le sucede a su vehiculo y lo reparamos de manera profesional
+                  </p>
+    
+                <img class="foto-diagnostico" src="Img/foto-diagnostico.png" alt="">
+                  <p>Gracias a nuestro avanzada tecnologia que tenemos, le iremos a realizar
+                    un diagnostico sertero y muy detallado
+                  </p>
+             </div>
+    
+           <div class="num2">
+    
+          
+                <img class="foto-mantenimiento" src="Img/foto-mantenimiento.png" alt="">
+                <p class="f-matenimiento">Los servicios de mantenimiento son la base de un programa que le ayudará a tener los gastos de reparación y previsión en total control.</p>
+    
+                <img class="foto-otros-servicios" src="Img/foto-otros-servicios.png" alt="">
+                <p>Nuestra amplia gama de servicios le permitira satisfacer sus necesidades de mantenimiento y reparación vehicular.</p>
+            </div>
+    
+        </main>
+   
+    <!-- <aside>
+        <h1>Pagina Servicios</h1>
+    </aside> -->
+
+           
+    
+
+    <script src="JS/servicios.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $(".icon").on('click', function(){
+        $("nav ul").toggle('slow');
+    })
+</script>
+
+</body>
+</html>

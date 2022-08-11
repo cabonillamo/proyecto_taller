@@ -1,0 +1,162 @@
+header{
+    background-color:#525558;
+    padding: 15px;
+    width: 100%;
+    height: 150px;
+}
+
+.nombreTaller{
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 80px;
+    width: 150px;
+    margin: 0px 1000px 0px 0px;
+    float: left;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #394651;
+ 
+    
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.icon{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #0d2033;
+    padding: 25px;
+    font-size: 20px;
+    display: none;
+    
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #525558;
+    opacity: 190px;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina h5{
+    color: #efefef;
+    font-size: 15px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffff;
+    margin-right: 10px;
+    background-color: #394651;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a :hover {
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #394651;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+/* Para el menú */
+@media (max-width: 768px){
+    ul li{
+        width: 100%;
+        padding: 16px;
+        text-align: left;
+    }
+
+    nav ul {
+        display: none
+    }   
+
+    .icon{
+        display: block;
+    }
+
+}
+
+/* Para el footer */
+@media screen and (max-width: 768px) {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}

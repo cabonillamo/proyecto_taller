@@ -1,0 +1,76 @@
+.titulo-1{
+    text-align: center;
+    font-style: italic;
+}
+
+.principal{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    background-color: #efefef;
+}
+
+.secundario{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    background-color: #efefef;
+}
+
+.num-1{
+    margin: auto;
+    
+
+}
+
+.num-2{
+    margin: auto;
+   
+}
+
+.resultado-1{
+    width: 500px;
+    height: 250px;
+}
+
+.resultado-2{
+    width: 500px;
+    height: 250px;
+}
+
+.resultado-3{
+    width: 500px;
+    height: 250px;
+}
+
+.resultado-4{
+    width: 500px;
+    height: 250px;
+}
+
+.resultado-5{
+    width: 500px;
+    height: 250px;
+}
+
+.resultado-6{
+    width: 500px;
+    height: 250px;
+}
+
+.resultado-7{
+    width: 500px;
+    height: 250px;
+}
+
+.resultado-8{
+    width: 500px;
+    height: 250px;
+}
+

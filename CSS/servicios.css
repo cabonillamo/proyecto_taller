@@ -1,0 +1,91 @@
+
+
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+
+main .titulo-servicios{
+    margin: 150px 0px 0px 0px;
+}
+
+
+.titulo-servicios{
+    text-align: center;
+    font-style:  italic;
+}
+
+.central{
+    text-align: center;
+}
+
+.central .explicacion-scanner{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+.central .explicacion-mante{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+.central .explicacion-diagnostico{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+/* Para el Main */
+@media screen and (max-width: 768px) {
+    main{
+        width: 90%;
+        max-width: 900px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+
+    .central .explicacion-scanner{
+        width: 200px;
+        margin: auto;
+        text-align: left;
+       }
+    
+    .central .explicacion-mante{
+        width: 200px;
+        margin: auto;
+        text-align: left;
+       }
+    
+    .central .explicacion-diagnostico{
+        width: 200px;
+        margin: auto;
+        text-align: left;
+    }
+
+    .video1{
+        width: 300px;
+        height: 150px;
+    }
+
+    .video2{
+        width: 300px;
+        height: 150px;
+    }
+
+    .video3{
+        width: 300px;
+        height: 150px;
+    }
+    
+    
+}

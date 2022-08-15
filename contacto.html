@@ -17,8 +17,9 @@
        
         <div class="logo">
              <a href="index.html"><img class="logo" src="Img/Logo del Proyecto.png"  alt=""></a>
-             <h3 class="nombreTaller">Taller Automotriz Bonilla</h3>
+            
         </div>
+        <h3 class="nombreTaller">Taller Automotriz Bonilla</h3>
     </header>
 
     <nav>
@@ -27,8 +28,8 @@
             <li><a href="servicios.html">Servicios</a> </li>
             <li><a href="productos.html">Productos</a> </li>
             <li><a href="resultado.html">Resultados</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
             <li><a href="contacto.html">Contacto</a> </li>
-            <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a> </li>
             <li><a href="acercaDe.html">Acerca de</a></li>
         </ul>
 
@@ -42,7 +43,18 @@
          mas información nos llega un número y correo para poder contarla para brindarla -->
 
     <main class="principal-form">
-        <form action="" method="POST">
+       <form id="formulario" action="PHP/enviarCorreo.php" method="POST"> 
+            <!--   <label for="user">Nombre</label>
+            <input type="text" name="user" placeholder="Ingrese su nombre">
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" placeholder="Ingrese sus Apellidos">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Ingrese su Correo Electronico">
+<br>
+            <label for="message">Escribe su Mensaje</label>
+            <textarea name="menssage" id="menssage" cols="30" rows="10"></textarea> -->
             <p>Nombre: <input type="text" class="form_input" size="40" name="nombre" > </p>
 
             <br><br><br><br>
@@ -59,8 +71,8 @@
             
             <br><br><br><br>
 
-            <P>Teléfono: <input type="tel" class="form_input" size="40" name="num" pattern="[0-4]{4}-" placeholder="Digite su número 8888-8888" list="lista"></P>
-            
+            <!-- <P>Teléfono: <input type="tel" class="form_input" size="40" name="num" pattern="[0-4]{4}-" placeholder="Digite su número 8888-8888" list="lista"></P>  -->
+            <p>Teléfono: <input type="tel" class="form-input" size="40" name="num" placeholder="Digite su número 8888-8888"></p> 
             <br><br><br><br>
 
             <p>Donde Vive: <input list="provincias" placeholder="Provincias" name="provi" >
@@ -73,12 +85,13 @@
                  <option value="Cartago"></option>
                  <option value="Heredia"></option>
              </datalist>
-            </p>
+            </p>  
+
 
             <br><br><br>
             <p class="botones-form">
-            <input type="submit" class="enviar" name="submit">
-            <input type="reset" class="borrar" name="reset">    
+            <input type="submit" name="submit">
+            <input type="reset" name="reset">    
             </p>
         </form>
     </main>
@@ -97,16 +110,16 @@
         </div>
         <div class="box">
             <h2>SOBRE NOSOTROS</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laudantium debitis veritatis dolor, quas obcaecati aliquam hic nulla ullam maxime unde distinctio id neque fuga, delectus minima ad est eaque?</P>
+            <P>Somos una empresa que nos dedicamos a reparar vehiculos, darles mantenimiento entre muchos otros servicio. Asimismo, tenemos una gran amplia gama de productos de buena calidad para su vehiculo y poseemos los mejores mecanicos Automotrices de la zona</P>
 
         </div>
         <div class="box">
             <h2>SIGUENOS</h2>
             <div class="red-social">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-twitter" ></a>
-                <a href="#" class="fa fa-youtube"></a>
+                <a href="https://www.facebook.com/alejandro.bonillamorales" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/ale_bonilla16/" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" ></a>
+                <a href="https://www.youtube.com/channel/UCv_Yz5BAESgrgvW4BALax7A" class="fa fa-youtube"></a>
             </div>
             <br>
             <h5>Correo: carlobonilla640@gmail.com</h5>

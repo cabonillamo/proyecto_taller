@@ -22,6 +22,10 @@
 .num1 p{
     width: 300px;
     text-align: justify;
+    font-family: Garamond;
+    line-height: 1.5;
+    font-size: 20px;
+    color: gray;
 }
 
 .num1{
@@ -32,7 +36,13 @@
 .num2 p{
     width: 300px;
     text-align: justify;
+    font-family: Garamond;
+    line-height: 1.5;
+    font-size: 20px;
+    color: gray;
 }
+
+
 
 .num2{
   margin: auto; 
@@ -116,9 +126,35 @@ main{
     background-color: #efefef;
 }
 
+
 main .titulo-servicios{
     margin: 150px 0px 0px 0px;
 }
+
+
+.acerca-de{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    background-color: #efefef;
+}
+
+.informacion{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    background-color: #efefef;
+}
+.titulo-autor{
+    text-align: center;
+}
+
 
 
 
@@ -133,10 +169,28 @@ main .titulo-servicios{
         grid-gap: 30px;
     }
 
+    .acerca-de{
+        width: 90%;
+        max-width: 1000px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+       
+    }
     
+    article{
+        width: 90%;
+        max-width: 1000px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        
+    }
+    
+    .informacion{
+        width: 90%;
+        max-width: 1000px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+     
+    }
     
 }
-
-
-    
-

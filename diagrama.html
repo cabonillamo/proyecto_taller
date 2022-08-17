@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="Img/Logo del Proyecto.png">
+
+    <title>Taller Automotriz Bonilla</title>
+
+    <link rel="icon" type="image/x-icon" href="./FavIcon.svg">
+
+    <!-- Importación de la Api de google -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <!-- De la Api, lo que queremos incluir -->
+    <!-- packages = Tipos de charts que se quiere incluir -->
+    <script type="text/javascript"> google.load('visualization', '1', { packages: ['corechart'] }); </script>
+
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="./CSS/chart.css">
+    <link rel="stylesheet" href="CSS/headerAndFooter.css">
+
+    <!-- Bootstrap 5.2 Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- íconos FontAwesome -->
+    <script src="https://kit.fontawesome.com/c2796234bc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body >
+    <!-- Bootstrap Nav  -->
+    
+    <!-- Este es el encabezadao del proyecto, se creo un div 
+        y dentro de el se agregaron la imagen del logo de la empresa y el nombre del taller -->
+        <header> 
+       
+            <div class="logo">
+                 <a href="index.html"><img class="logo" src="Img/Logo del Proyecto.png"  alt=""></a>
+                 
+            </div>
+            <h3 class="nombreTaller">Taller Automotriz Bonilla</h3>
+
+            
+    </header>
+    <!-- En este nav se agregaron la lista de los menú a utilizar en nuestro proyecto con sus direcciones.
+        Y se hizo un div, donde a la hora de tener vista desde un dispositivo celular aparesca un icono de menú 
+        que cuando le damos click encima de el se nos despliegue el menú -->
+     <nav> 
+         <ul>
+             <li><a href="index.html">Inicio</a> </li>
+             <li><a href="servicios.html">Servicios</a> </li>
+             <li><a href="productos.html">Productos</a> </li>
+             <li><a href="resultado.html">Resultados</a></li>
+             <li><a href="ubicacion.html">Ubicación</a></li>
+             <li><a href="contacto.html">Contacto</a> </li>
+             <li><a href="diagrama.html">Diagrama</a></li>
+             <li><a href="acercaDe.html">Acerca de</a></li>
+             <li><a href="referencias.html">Referencias</a></li>
+         </ul>
+
+         <div>
+            <li class="icon"><i class="fa fa-bars" aria-hidden="true"></i> Menú </li>
+        </div>
+
+
+    </nav>
+
+    <!-- Google Charts -->
+    <!-- Contenedor donde se mostrará el gráfico -->
+    <center class="container mx-auto my-5 py-5" >
+        <h1>Google API Rest Bar Chart</h1>
+        <div id="chart"></div>
+    </center>
+    
+
+    
+    <!-- Pie pagina -->
+
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="Img/Logo del Proyecto.png" alt="logo-empresa">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <P>Somos una empresa que nos dedicamos a reparar vehiculos, darles mantenimiento entre muchos otros servicio. Asimismo, tenemos una gran amplia gama de productos de buena calidad para su vehiculo y poseemos los mejores mecanicos Automotrices de la zona</P>
+
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="https://www.facebook.com/alejandro.bonillamorales" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/ale_bonilla16/" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" ></a>
+                <a href="https://www.youtube.com/channel/UCv_Yz5BAESgrgvW4BALax7A" class="fa fa-youtube"></a>
+            </div>
+            <br>
+            <h5>Correo: carlobonilla640@gmail.com</h5>
+            <br>
+            <h5>Número: +507 85011597</h5>
+        </div>
+    </div>
+
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>Taller Automotriz Bonilla</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+
+    <!--Mi Script-->
+    <script type="text/javascript" src="./JS/scripChart.js"></script>
+
+    <!-- Bootstrap 5.2 Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="JS/menu.js"></script>
+
+</body>
+
+
+
+</html>

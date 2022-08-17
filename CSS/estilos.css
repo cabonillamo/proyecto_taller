@@ -42,11 +42,28 @@
     color: gray;
 }
 
+main a{
+    color: gray;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+}
+
+.titulo-referencias{
+    text-align: center;
+    font-family: Garamond;
+    line-height: 1.5;
+    font-size: 20px;
+    color: gray;
+}
 
 
 .num2{
   margin: auto; 
  
+}
+
+.num3{
+    margin: auto;
 }
 
 .titulo-marcas{
@@ -194,3 +211,7 @@ main .titulo-servicios{
     }
     
 }
+
+
+    
+
